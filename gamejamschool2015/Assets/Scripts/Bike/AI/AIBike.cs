@@ -29,7 +29,7 @@ public class AIBike : MonoBehaviour
 			Debug.DrawLine(transform.position, currentWaypoint);
 			//calculate steering
 			float angle = GetAngle(currentWaypoint); 
-			print (angle);
+			//print (angle);
 
 			SteerTo(angle);
 			transform.eulerAngles = new Vector3(
