@@ -13,6 +13,7 @@ public class Track : MonoBehaviour
 	/****class methods****/
 	public static Vector3 GetNewWaypoint(int index)
 	{
+		if (waypoints == null) return Vector3.zero;
 		return waypoints[index % waypoints.Length].position;
 	}
 }
