@@ -1,15 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Track
+public class Track : MonoBehaviour
 {
-	private static Vector3[] waypoints = new Vector3[]{
-		new Vector3(0,0,0), new Vector3(4,0,4), new Vector3(0,0,8)
-	};
-	
+	private static Transform[] waypoints;
+
+	void Start()
+	{
+		waypoints = GetComponentsInChildren<Transform> ();
+	}
+
 	/****class methods****/
 	public static Vector3 GetNewWaypoint(int index)
 	{
-		return waypoints[index % waypoints.Length];
+		return waypoints[index % waypoints.Length].position;
 	}
 }

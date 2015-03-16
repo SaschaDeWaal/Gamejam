@@ -29,18 +29,15 @@ public class AIBike : MonoBehaviour
 			Debug.DrawLine(transform.position, currentWaypoint);
 			//calculate steering
 			float angle = GetAngle(currentWaypoint); 
-			if(angle > 5.0f)
-			{
-				/*SteerTo(angle);
-				transform.eulerAngles = new Vector3(
-					0,
-					direction,
-					0
-				);*/
-				//steerForce =  RotateTo(transform.eulerAngles.y, angle) * 80.0f;
-				//transform.forward = Vector3.Lerp(transform.forward, -(transform.position - currentWaypoint), Time.deltaTime / 2);
-				transform.forward = Vector3.RotateTowards(transform.forward, currentWaypoint - transform.position, Time.deltaTime * 2, 80.0f);
-			}
+			print (angle);
+
+			SteerTo(angle);
+			transform.eulerAngles = new Vector3(
+				0,
+				direction,
+				0
+			);
+			//transform.forward = Vector3.RotateTowards(transform.forward, currentWaypoint - transform.position, Time.deltaTime * 2, 80.0f);
 			//check distance
 			if(Vector3.Distance(currentWaypoint, transform.position) < minDistance)
 				currentWaypoint = Track.GetNewWaypoint(progress++);				
@@ -64,17 +61,15 @@ public class AIBike : MonoBehaviour
 	/****class methods****/
 	private float GetAngle(Vector3 other)
 	{
-		float angle = (currentWaypoint - transform.position);
-		return angle;
+		return Mathf.Rad2Deg * Mathf.Atan2(other.x - transform.position.x, other.z - transform.position.z);
 	}
 
 	protected void SteerTo(float target)
 	{
-		print (target);
-		float angle = (float)(target - direction);
-		while(angle < -Mathf.PI) angle += (float)Mathf.PI*2;
-		while (angle > Mathf.PI) angle -= (float)Mathf.PI*2;
-		
-		direction += (float)Mathf.Min(rigidbody.velocity.magnitude * maxSpeed, Mathf.Abs(angle)) * Mathf.Sign(angle);
+		float angle = target - direction;
+		while(angle < -180) angle += 360;
+		while (angle > 180) angle -= 360;
+
+		direction += Mathf.Min(rigidbody.velocity.magnitude * (maxSpeed / 4), Mathf.Abs(angle)) * Mathf.Sign(angle);//Mathf.Sign (angle);
 	}
 }
