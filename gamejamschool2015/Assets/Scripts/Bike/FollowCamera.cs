@@ -14,13 +14,11 @@ public class FollowCamera : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player");
 		pointer = transform.GetChild(0).gameObject;
 	}
-	
 
 	void Update () {
 
 		//look to the player
 		transform.LookAt(player.transform);
-
 
 		//move to player
 		Vector2 camPos = new Vector2(transform.position.x,transform.position.z);

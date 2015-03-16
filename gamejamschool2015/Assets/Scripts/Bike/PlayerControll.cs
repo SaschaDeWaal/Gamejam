@@ -4,10 +4,6 @@ using System.Collections;
 public class PlayerControll : MonoBehaviour {
 
 	const float maxSpeed = 5;
-
-	void Start () {
-	
-	}
 	
 	void Update () {
 		control();
