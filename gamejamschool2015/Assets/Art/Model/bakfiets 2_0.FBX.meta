@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 9a86d74e3cd54234184f33826465ec32
-timeCreated: 1426521415
+guid: 5d2564c6ebb87f840a697b7f4e43b353
+timeCreated: 1426580674
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -8,62 +8,127 @@ ModelImporter:
     100000: //RootNode
     100002: Box001
     100004: Box002
-    100006: Cylinder023
-    100008: Cylinder025
-    100010: Cylinder029
-    100012: Cylinder031
-    100014: Cylinder032
-    100016: Cylinder033
-    100018: Cylinder035
-    100020: Cylinder036
-    100022: Cylinder037
-    100024: Fiets_jurgen
+    100006: Cylinder011
+    100008: Cylinder012
+    100010: Cylinder013
+    100012: Cylinder014
+    100014: Cylinder015
+    100016: Cylinder016
+    100018: Cylinder017
+    100020: Cylinder018
+    100022: Cylinder019
+    100024: Cylinder020
+    100026: Cylinder021
+    100028: Cylinder022
+    100030: Cylinder023
+    100032: Cylinder025
+    100034: Cylinder029
+    100036: Cylinder031
+    100038: Cylinder032
+    100040: Cylinder033
+    100042: Cylinder035
+    100044: Cylinder036
+    100046: Cylinder037
+    100048: Fiets_jurgen
+    100050: Plane001
     400000: //RootNode
     400002: Box001
     400004: Box002
-    400006: Cylinder023
-    400008: Cylinder025
-    400010: Cylinder029
-    400012: Cylinder031
-    400014: Cylinder032
-    400016: Cylinder033
-    400018: Cylinder035
-    400020: Cylinder036
-    400022: Cylinder037
-    400024: Fiets_jurgen
+    400006: Cylinder011
+    400008: Cylinder012
+    400010: Cylinder013
+    400012: Cylinder014
+    400014: Cylinder015
+    400016: Cylinder016
+    400018: Cylinder017
+    400020: Cylinder018
+    400022: Cylinder019
+    400024: Cylinder020
+    400026: Cylinder021
+    400028: Cylinder022
+    400030: Cylinder023
+    400032: Cylinder025
+    400034: Cylinder029
+    400036: Cylinder031
+    400038: Cylinder032
+    400040: Cylinder033
+    400042: Cylinder035
+    400044: Cylinder036
+    400046: Cylinder037
+    400048: Fiets_jurgen
+    400050: Plane001
     2300000: Box001
     2300002: Box002
-    2300004: Cylinder023
-    2300006: Cylinder025
-    2300008: Cylinder029
-    2300010: Cylinder031
-    2300012: Cylinder032
-    2300014: Cylinder033
-    2300016: Cylinder035
-    2300018: Cylinder036
-    2300020: Cylinder037
+    2300004: Cylinder011
+    2300006: Cylinder012
+    2300008: Cylinder013
+    2300010: Cylinder014
+    2300012: Cylinder015
+    2300014: Cylinder016
+    2300016: Cylinder017
+    2300018: Cylinder018
+    2300020: Cylinder019
+    2300022: Cylinder020
+    2300024: Cylinder021
+    2300026: Cylinder022
+    2300028: Cylinder023
+    2300030: Cylinder025
+    2300032: Cylinder029
+    2300034: Cylinder031
+    2300036: Cylinder032
+    2300038: Cylinder033
+    2300040: Cylinder035
+    2300042: Cylinder036
+    2300044: Cylinder037
+    2300046: Plane001
     3300000: Box001
     3300002: Box002
-    3300004: Cylinder023
-    3300006: Cylinder025
-    3300008: Cylinder029
-    3300010: Cylinder031
-    3300012: Cylinder032
-    3300014: Cylinder033
-    3300016: Cylinder035
-    3300018: Cylinder036
-    3300020: Cylinder037
-    4300000: Cylinder023
-    4300002: Box001
-    4300004: Cylinder025
-    4300006: Box002
-    4300008: Cylinder029
-    4300010: Cylinder031
-    4300012: Cylinder032
-    4300014: Cylinder033
-    4300016: Cylinder035
-    4300018: Cylinder036
-    4300020: Cylinder037
+    3300004: Cylinder011
+    3300006: Cylinder012
+    3300008: Cylinder013
+    3300010: Cylinder014
+    3300012: Cylinder015
+    3300014: Cylinder016
+    3300016: Cylinder017
+    3300018: Cylinder018
+    3300020: Cylinder019
+    3300022: Cylinder020
+    3300024: Cylinder021
+    3300026: Cylinder022
+    3300028: Cylinder023
+    3300030: Cylinder025
+    3300032: Cylinder029
+    3300034: Cylinder031
+    3300036: Cylinder032
+    3300038: Cylinder033
+    3300040: Cylinder035
+    3300042: Cylinder036
+    3300044: Cylinder037
+    3300046: Plane001
+    4300000: Cylinder011
+    4300002: Cylinder012
+    4300004: Cylinder013
+    4300006: Cylinder014
+    4300008: Cylinder015
+    4300010: Cylinder016
+    4300012: Cylinder017
+    4300014: Cylinder018
+    4300016: Cylinder019
+    4300018: Cylinder020
+    4300020: Cylinder021
+    4300022: Cylinder022
+    4300024: Plane001
+    4300026: Cylinder023
+    4300028: Box001
+    4300030: Cylinder025
+    4300032: Box002
+    4300034: Cylinder029
+    4300036: Cylinder031
+    4300038: Cylinder032
+    4300040: Cylinder033
+    4300042: Cylinder035
+    4300044: Cylinder036
+    4300046: Cylinder037
     7400000: Take 001
     7400002: Take 0010
     7400004: Take 0011
@@ -114,6 +179,30 @@ ModelImporter:
         weight: 1
       - path: Box002
         weight: 1
+      - path: Cylinder011
+        weight: 1
+      - path: Cylinder012
+        weight: 1
+      - path: Cylinder013
+        weight: 1
+      - path: Cylinder014
+        weight: 1
+      - path: Cylinder015
+        weight: 1
+      - path: Cylinder016
+        weight: 1
+      - path: Cylinder017
+        weight: 1
+      - path: Cylinder018
+        weight: 1
+      - path: Cylinder019
+        weight: 1
+      - path: Cylinder020
+        weight: 1
+      - path: Cylinder021
+        weight: 1
+      - path: Cylinder022
+        weight: 1
       - path: Cylinder023
         weight: 1
       - path: Cylinder025
@@ -134,13 +223,15 @@ ModelImporter:
         weight: 1
       - path: Fiets_jurgen
         weight: 1
+      - path: Plane001
+        weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
       name: Take 0010
       takeName: Take 001
       firstFrame: 81
-      lastFrame: 96
+      lastFrame: 94
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -166,6 +257,30 @@ ModelImporter:
         weight: 1
       - path: Box002
         weight: 1
+      - path: Cylinder011
+        weight: 1
+      - path: Cylinder012
+        weight: 1
+      - path: Cylinder013
+        weight: 1
+      - path: Cylinder014
+        weight: 1
+      - path: Cylinder015
+        weight: 1
+      - path: Cylinder016
+        weight: 1
+      - path: Cylinder017
+        weight: 1
+      - path: Cylinder018
+        weight: 1
+      - path: Cylinder019
+        weight: 1
+      - path: Cylinder020
+        weight: 1
+      - path: Cylinder021
+        weight: 1
+      - path: Cylinder022
+        weight: 1
       - path: Cylinder023
         weight: 1
       - path: Cylinder025
@@ -186,12 +301,14 @@ ModelImporter:
         weight: 1
       - path: Fiets_jurgen
         weight: 1
+      - path: Plane001
+        weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
       name: Take 0011
       takeName: Take 001
-      firstFrame: 174
+      firstFrame: 173
       lastFrame: 200
       wrapMode: 0
       orientationOffsetY: 0
@@ -218,6 +335,30 @@ ModelImporter:
         weight: 1
       - path: Box002
         weight: 1
+      - path: Cylinder011
+        weight: 1
+      - path: Cylinder012
+        weight: 1
+      - path: Cylinder013
+        weight: 1
+      - path: Cylinder014
+        weight: 1
+      - path: Cylinder015
+        weight: 1
+      - path: Cylinder016
+        weight: 1
+      - path: Cylinder017
+        weight: 1
+      - path: Cylinder018
+        weight: 1
+      - path: Cylinder019
+        weight: 1
+      - path: Cylinder020
+        weight: 1
+      - path: Cylinder021
+        weight: 1
+      - path: Cylinder022
+        weight: 1
       - path: Cylinder023
         weight: 1
       - path: Cylinder025
@@ -237,6 +378,8 @@ ModelImporter:
       - path: Cylinder037
         weight: 1
       - path: Fiets_jurgen
+        weight: 1
+      - path: Plane001
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}

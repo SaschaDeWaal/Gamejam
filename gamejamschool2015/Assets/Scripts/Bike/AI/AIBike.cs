@@ -18,6 +18,9 @@ public class AIBike : MonoBehaviour
 		rigidbody = GetComponent<Rigidbody> ();
 		target = Track.GetNewWaypoint(progress++);
 		velocity = (target - transform.position).normalized * maxSpeed;
+		
+		maxSpeed = Mathf.Clamp(0.8f * Random.value, 0.4f, 0.8f);
+		maxSteering = Mathf.Clamp(0.06f * Random.value, 0.04f, 0.048f);
 	}
 
 	void Update()
@@ -33,7 +36,7 @@ public class AIBike : MonoBehaviour
 		if(velocity.magnitude > maxSpeed)
 			velocity = velocity.normalized * maxSpeed;
 
-		if (Vector3.Distance (target, transform.position) < 2.0f)
+		if (Vector3.Distance (target, transform.position) < 3.0f)
 			target = Track.GetNewWaypoint (progress++);
 		
 		child.forward = new Vector3(
