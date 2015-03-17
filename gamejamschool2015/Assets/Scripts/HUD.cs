@@ -19,6 +19,11 @@ public class HUD : MonoBehaviour {
 	}
 
 	void Update(){
+	
+
+		if(score > 0 && score%100 == 0)
+			PlayerControll.ToggleGun();
+		
 		if (addScore > 0){
 			score ++;
 			addScore --;
