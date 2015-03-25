@@ -1,19 +1,4 @@
-﻿Skip to content
- This repository
-Explore
-Gist
-Blog
-Help
-@JesseLeeuwen JesseLeeuwen
- 
- Unwatch 2
-  Star 0
- Fork 0SaschaDeWaal/Gamejam
- branch: master  Gamejam/gamejamschool2015/Assets/Scripts/Bike/AI/AIBike.cs
-@JesseLeeuwenJesseLeeuwen 8 days ago fiets AI, bakfiets animator
-2 contributors @JesseLeeuwen @SaschaDeWaal
-RawBlameHistory     127 lines (107 sloc)  3.025 kb
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class AIBike : MonoBehaviour
@@ -137,5 +122,3 @@ public class oudAIBike : MonoBehaviour
 		direction += Mathf.Min(rigidbody.velocity.magnitude * (maxSpeed / 500), Mathf.Abs(angle)) * Mathf.Sign(angle);//Mathf.Sign (angle);//Mathf.Clamp (angle, -1, 1);//
 	}
 }*/
-Status API Training Shop Blog About
-© 2015 GitHub, Inc. Terms Privacy Security Contact
